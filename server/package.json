@@ -1,0 +1,26 @@
+{
+  "name": "toolbox-test-API",
+  "author": "Andres Andrade",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --delay 2.5 server.js -e js -L --ignore '**/*spec.js' --debug=5858",
+    "test": "mocha -R spec './test/**/*.spec.js'",
+    "test:unit": "mocha './test/unit/**/*.spec.js'",
+    "test:integration": "mocha './test/integration/**/*.spec.js'"
+  },
+  "dependencies": {
+    "express": "~4.16.0",
+    "express-validator": "5.3.0",
+    "http-errors": "~1.6.2",
+    "winston": "3.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.2.0",
+    "chai-as-promised": "7.1.1",
+    "mocha": "5.2.0",
+    "nodemon": "1.18.3",
+    "supertest": "3.1.0"
+  }
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test:MainContent renders and pass snapshot test 1`] = `
+<main>
+  <Container
+    tag="div"
+  />
+</main>
+`;

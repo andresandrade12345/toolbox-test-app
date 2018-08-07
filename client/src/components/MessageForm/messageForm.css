@@ -1,0 +1,14 @@
+.message-form-wrapper {
+    margin-top: 5em;
+    position: relative;
+    padding: 1em;
+    border: 1px solid #d8d8d8;
+}
+
+.message-form-response {
+    margin-top: 30px;
+}
+
+.message-form-reset-btn {
+    margin-left: 10px;
+}

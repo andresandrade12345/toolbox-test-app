@@ -1,0 +1,3 @@
+// Message
+export const SEND_MESSAGE_SUCCESS = 'SEND_MESSAGE_SUCCESS';
+export const SEND_MESSAGE_ERROR = 'SEND_MESSAGE_ERROR';
